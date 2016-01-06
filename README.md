@@ -2,10 +2,9 @@
 A waste collection booking application.
 
 ## Background
-
 Global Economy is an extreme waste management software company that likes to lead by example. In an effort to cut down on the squandering of resources, no developer, QA or product owner is allocated a specific workstation and of the desks that do exist there are only enough for 1 between 2. In an effort to cut down on the provisioning of wasteful infrastructure, as much documentation as possible is contained within github, along with the source code.
 
-These factors lead to certain processes being prevalent: 
+These factors lead to certain processes being prevalent:
 * All work is completed by at least 2 people in collaboration
 * Application requirements are written in plain language in text files and stored in the github repo (usually by a QA/PO/Dev collaboration)
 * Tests are written in plain language to clearly match the requirements so that the product owner can read and understand them without needing to understand the implementation
@@ -19,8 +18,15 @@ Due to the need to logically split contributions, commits usually fall into one 
 
 To make the process of changing author name easier, a helpful member of the team has created a script to enable easy switching between preset pairings. Instructions for installing and using it are here: https://github.com/ben-biddington/xp-mode
 
-## Task 
-
+## Task
 Global Economy has been commissioned to create an app to enable customers to book waste collection. Your team has been tasked with writing the logic for the booking screen. Today  you and at least 1 buddy are going to tackle the validating and saving of booking submissions.
 
-Your QA and product owner have collaborated to generate the requirements for this part of the app. The requirements have been written out by the QA in a way that can easily be translated into tests. The tests should read as plainly as possible, so that the product owner can track progress easily by looking at which tests are passing. The requirements document can be found here: [link]
+Your QA and product owner have collaborated to generate the requirements for this part of the app. The acceptance requirements have been written out by the QA in a way that can easily be translated into tests. The tests should read as plainly as possible, so that the product owner can track progress easily by looking at which tests are passing. The acceptance document can be found here: acceptance.txt
+
+## Objectives for Exercise
+* Complete the "Book Collection" use-case logic;
+* Follow the process and code committing method as described above, ensuring an even split of commits;
+* Use the pairing script to switch author to accurately show who authored each commit;
+* Work through the acceptance criteria, translating them into tests and writing the functionality to make them pass;
+* Ensure that any new functionality being added is only for the purpose of getting a test to pass;
+* Prioritise the acceptance criteria to ensure that new functionality is added in a smooth incremental manner.
