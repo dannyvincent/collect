@@ -21,7 +21,7 @@ To make the process of changing author name easier, a helpful member of the team
 ## Task
 Global Economy has been commissioned to create an app to enable customers to book waste collection. Your team has been tasked with writing the logic for the booking screen. Today  you and at least 1 buddy are going to tackle the validating and saving of booking submissions.
 
-Your QA and product owner have collaborated to generate the requirements for this part of the app. The acceptance requirements have been written out by the QA in a way that can easily be translated into tests. The tests should read as plainly as possible, so that the product owner can track progress easily by looking at which tests are passing. The acceptance document can be found here: acceptance.txt
+Your QA and product owner have collaborated to generate the requirements for this part of the app. The acceptance requirements have been written out by the QA in a way that can easily be translated into tests. The tests should read as plainly as possible, so that the product owner can track progress easily by looking at which tests are passing. The acceptance document can be found here: [acceptance.txt](acceptance.txt)
 
 ## Objectives for Exercise
 * Complete the "Book Collection" use-case logic;
