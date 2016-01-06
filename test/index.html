@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tests</title>
-	<link rel="stylesheet" href="../node_modules/mocha/mocha.css">
-	<script src="../node_modules/mocha/mocha.js"></script>
+  <title>Tests</title>
+  <link rel="stylesheet" href="../node_modules/mocha/mocha.css">
+  <script src="../node_modules/mocha/mocha.js"></script>
   <script src="../node_modules/chai/chai.js"></script>
 
   <script>mocha.setup('bdd');</script>
 
   <!-- Add application script references here -->
+  <script src="../core/BookCollection.js"></script>
+  <script src="../core/Collection.js"></script>
+  <script src="../core/Validator.js"></script>
 
   <!-- Add spec file references here -->
+  <script src="spec/When_I_book_a_collection.js"></script>
 
 </head>
 <body>

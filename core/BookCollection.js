@@ -1,0 +1,2 @@
+BookCollection = function(collection){
+}
