@@ -1,0 +1,18 @@
+1.0     About waste collection booking
+1.1     When a collection is booked it is validated
+1.2     When validation fails it displays a message to the UI
+1.2.1   The failed validation message should be like "Validation failed"
+1.2.2   When validation fails it should display all the reasons to the UI
+1.3     When validation passes the collection is booked
+1.3.1   When a collection is booked is displays a message to the UI like "Collection booked"
+
+2.0     About collection validation
+2.1     A collection must have a location specified
+2.1.1   When a location is not specified the validation message is "A location must be specified"
+2.2     A collection must have a date specified
+2.2.1   When a date is not specified the validation message is "A date must be specified"
+
+3.0     About validation
+3.1     Validation passes when all validation cases succeed
+3.2     Validation fails when just 1 validation case fails
+3.3     When validation fails it should know all reasons why the collection is invalid
