@@ -1,2 +1,2 @@
-BookCollection = function(collection){
+BookCollection = function(collection, validator){
 }
