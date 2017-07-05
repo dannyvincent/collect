@@ -2,10 +2,6 @@
   "name": "collect",
   "version": "1.0.0",
   "description": "waste collection booking app",
-  "repository": {
-    "type": "git",
-    "url": "git@github.dev.xero.com:dev-dano/Collect.git"
-  },
   "scripts": {
     "test": "node ./node_modules/mocha-phantomjs/bin/mocha-phantomjs ./test/index.html"
   },
